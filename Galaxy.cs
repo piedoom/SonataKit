@@ -58,10 +58,6 @@ namespace SonataKit
         [JsonProperty("df")]
         public string DangerFactor { get; set; }
 
-        // Array of wormholed galaxies
-        [JsonProperty("w")]
-        public List<string> Wormholes { get; set; }
-
         // Is the galaxy an Anchor Galaxy?
         [JsonProperty("a")]
         public bool IsAnchor { get; set; }
