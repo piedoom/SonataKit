@@ -20,7 +20,7 @@ List<Galaxy> universe = await SonataKit.Client.BuildUniverse();
 
 Now that we have a `List` of galaxies in the variable `universe`, we can access that Galaxy's properties.
 
-The full meaning of each property can be found [http://wiki2.starsonata.com/index.php/APIs_and_data_end_points](here), however most properties are self-explainatory.
+The full meaning of each property can be found [here](http://wiki2.starsonata.com/index.php/APIs_and_data_end_points), however most properties are self-explainatory.
 
 If we wanted to get the name of each `Galaxy`, we could do the following.
 
